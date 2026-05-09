@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = '/api';
 
 export const getStats = () => axios.get(`${API_BASE_URL}/stats`);
 export const getConsumers = () => axios.get(`${API_BASE_URL}/consumers`);
